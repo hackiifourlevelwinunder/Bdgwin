@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WinGo Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <h2>WinGo Demo</h2>
+  <div class="wallet">Balance: ₹<span id="balance">24697</span></div>
+  <div class="timer">Time: <span id="time">30</span>s</div>
+
+  <div class="buttons">
+    <button onclick="bet('red')">Red</button>
+    <button onclick="bet('green')">Green</button>
+    <button onclick="bet('violet')">Violet</button>
+    <button onclick="bet('big')">Big</button>
+    <button onclick="bet('small')">Small</button>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
